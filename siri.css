@@ -1,0 +1,99 @@
+
+
+
+
+
+
+.header{
+	position: fixed;
+	width: 100%;
+	top: 0;
+	left: 0;
+	z-index: 50;
+}
+.conteiner{
+	max-width: 1180px;
+	margin: 0px auto;
+	padding: 0px 10px;
+}
+.header:before{
+	content: '';
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: #547;
+}
+
+.conteiner__menu{
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+	height: 80px;
+	align-items: center;
+}
+.header__burger{}
+.header__menu{}
+
+.kaxa li{
+	position: relative;
+	z-index: 2;
+	list-style: none;
+	margin: 0px 0px 0px 20px;
+}
+.kaxa{
+	display: flex;
+	position: relative;
+	z-index: 2;
+}
+.sergo{
+		color: #fff;
+	text-transform: uppercase;
+	font-size: 18px;
+	text-decoration: none
+}
+
+
+.content__3{}
+
+.vond_1{}
+
+.kaxa__5{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: -1px;
+}
+.element li{
+	list-style: none;
+}
+.forma li{
+	position: relative;
+	list-style: none;
+	z-index: 10;
+	top: 80px;
+
+}
+.forma img{
+		padding: 0px 0px 0px 90px ;
+}
+@media(max-width: 1800px){
+	.forma img{
+		padding: 30px 0px 0px 80px ;
+	}
+}
+.aperazia_i{}
+.conteiner_1{}
+.forma_1{}
+.forma_1 li{
+	list-style: none;
+	position: relative;
+	z-index: 10;
+}
+.forma_1 img{
+		padding: 130px 0px 0px 80px;
+}
+
+
+
